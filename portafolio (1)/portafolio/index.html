@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang='es'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Natalia Pintag | Portafolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel='stylesheet' href='assets/css/style.css'>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <a href='#' class="logo">
+          <i class='bx bxl-xing logo__icon'></i>
+          <span>Portafolio</span>
+        </a>
+
+        <div class="nav__menu">
+          <button type="button" class="btn btn--close" aria-label="cerrar">
+            <i class='bx bx-x'></i>
+          </button>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href='#hero' class="nav__link">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href='#about' class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href='#works' class="nav__link">Works</a>
+            </li>
+            <li class="nav__item">
+              <a href='#contact' class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <button type="button" class="btn btn--open" aria-label="abrir">
+          <i class='bx bx-menu'></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="section hero">
+        <div class='container'>
+          <div class='hero__content'>
+            <div>
+              <h1 class='hero__title'>👋🏻 ¡Hola!, soy...<br>
+                <span class="hero__name">Natalia Pintag</span>
+              </h1>
+              <p class='hero__description'>
+                <span>
+                  <span id="typing" class="hero__typing"></span> developer.
+                </span>
+                <br> Un poco sobre mi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class='container'>
+          <h2 class='section__title'>⚡ Acerca de Mí</h2>
+          <div class='about__content'>
+            <div class='about__info'>
+              <p>Hola futuros <a href= '#'> programadores</a>.</p>
+
+              <p>Soy Natalia, una estudiante de Ingeniería en Software en la Universidad de Milagro, Ecuador, especializándome en desarrollo Full Stack. Mi pasión por la tecnología desde joven me ha impulsado a enfocarme en la programación. Estoy comprometida en dominar tanto el desarrollo de software como el diseño de interfaces de usuario para crear soluciones completas y efectivas. Mi objetivo es utilizar mis habilidades para contribuir al avance tecnológico y mejorar la sociedad.</p>
+            </div>
+            <div class='about__image'>
+              <img src='assets/img/profile2.avif' alt='' class="about__img">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="works" class="section section--color works">
+        <div class='container'>
+          <h2 class='section__title'>Mis proyectos</h2>
+          <p class="section__description">Estos son algunos de mis proyectos en los que he trabajado.</p>
+
+          <div class='works__content'>
+            <!--Card 1-->
+            <div class='works__item'>
+              <div class='works__image'>
+                <img src='assets/img/Juego solitario.jpg' alt='img app' class='works_img'>
+              </div>
+              <div class='works__body'>
+                <div class="works__head">
+                  <h3 class='works__title'>Proyecto #1</h3>
+                  <div class='works__links'>
+                    <a href='#' target="_blank" aria-label="Ir al repositorio">
+                      <i class='bx bxl-github'></i>
+                    </a>
+
+                    <a href='#' target="_blank" aria-label="Ver proyecto">
+                      <i class='bx bx-link-external'></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class='works__skills'>
+                  <span class="works__skill">
+                    <i class='bx bxl-javascript'></i> JavaScript
+                  </span>
+                  <span class="works__skill">
+                    <i class='bx bxl-css3'></i> CSS
+                  </span>
+                  <span class="works__skill">
+                    <i class='bx bxl-html5'></i> HTML
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!--Card 2-->
+            <div class='works__item'>
+              <div class='works__image'>
+                <img src='assets/img/Ejercicio calculadora1.jpg' alt='img app' class='works_img'>
+              </div>
+              <div class='works__body'>
+                <div class="works__head">
+                  <h3 class='works__title'>Proyecto #2</h3>
+                  <div class='works__links'>
+                    <a href='#' target="_blank" aria-label="Ir al repositorio">
+                      <i class='bx bxl-github'></i>
+                    </a>
+
+                    <a href='#' target="_blank" aria-label="Ver proyecto">
+                      <i class='bx bx-link-external'></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class='works__skills'>
+                  <span class="works__skill">
+                    <i class='bx bxl-javascript'></i> JavaScript
+                  </span>
+                  <span class="works__skill">
+                    <i class='bx bxl-css3'></i> CSS
+                  </span>
+                  <span class="works__skill">
+                    <i class='bx bxl-html5'></i> HTML
+                  </span>
+                </div>
+              </div>
+            </div>
+
+      </section>
+
+      <section id="contact" class="section">
+        <div class='container'>
+          <h2 class='section__title'>Estamos en contacto.</h2>
+          <p class="section__description">No dudes en ponerte en contacto con nosotros y hablar más sobre tus proyectos.</p>
+
+          <div class='contact__links'>
+            <a class="contact__link" href='Natalia: npintagl@unemi.edu.ec'>
+              <i class='bx bxs-envelope'></i> Enviar correo
+            </a>
+            <a class="contact__link" href='https://github.com/natalia-02'>
+              <i class='bx bxl-github'></i> Repositorio
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class='container'>
+        <p class="copy">🚀⭐.</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src='assets/js/index.js'></script>
+  </body>
+</html>
